@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Project 89
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body id="gamePage">
+    <h4 id="player1_name"><span id="player1_score"></span>
+    </h4>
+    <h4 id="player2_name"><span id="player2_score"></span>
+    </h4>
+    <div class="container">
+        <center>
+            <h2 style="color: white;">Math Quiz Game</h2>
+            <h3 id="question"></h3>
+            <h3 id="answer"></h3>
+            <br>
+            <br>
+            <div id="output"></div>
+            <h3>Number 1</h3>
+            <input id="number1" class="form-control" type="text" placeholder="Number 1">
+            <h3>Number 2</h3>
+            <input id="number2" class="form-control" type="text" placeholder="Number 2">
+            <br>
+            <button type="button" id="send" class="btn btn-danger" onclick="send()">Send</button>
+        </center>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+
+</html>
